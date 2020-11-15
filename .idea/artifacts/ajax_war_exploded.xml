@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ajax:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ajax_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ajax/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ajax" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/fastjson-1.2.74.jar" />
+          <element id="file-copy" path="E:/Javaee作业素材/jQuery与Ajax入门源代码/jQuery与Ajax入门源代码/ajax/WebContent/WEB-INF/lib/fastjson-1.2.74.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
