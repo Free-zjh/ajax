@@ -15,7 +15,7 @@
 				console.log(json);
 				for(var i = 0 ; i < json.length ; i++){
 					var ch = json[i];
-					$("#lv1").append("<option value=\"" + ch.code + "\">" + ch.name + "</option>")
+					$("#lv1").append("<option value='" + ch.code + "'>" + ch.name + "</option>")
 				}
 			}
 		})
@@ -36,7 +36,7 @@
 					$("#lv2>option").remove();
 					for(var i = 0 ; i < json.length ; i++){
 						var ch = json[i];
-						$("#lv2").append("<option value=\"" + ch.code +"\">" + ch.name + "</option>")
+						$("#lv2").append("<option value='" + ch.code +"'>" + ch.name + "</option>")
 					}
 				}
 			})
